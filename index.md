@@ -9,28 +9,7 @@ toc_icon: "cloud"
 toc_sticky: true
 ---
 
-<p class="intro__role">Cloud Architect · Platform Engineering · Cloud Security</p>
-<p class="intro__tagline">18 years building secure, scalable platforms on AWS, Azure and GCP</p>
-
 [Connect on LinkedIn](https://www.linkedin.com/in/sujithvs74/){: .btn .btn--primary .intro__cta}
-
-<div class="tech-stack">
-  <div class="tech"><img src="/assets/images/tech/aws.svg" alt="AWS logo"><span>AWS</span></div>
-  <div class="tech"><img src="/assets/images/tech/azure.svg" alt="Microsoft Azure logo"><span>Azure</span></div>
-  <div class="tech"><img src="/assets/images/tech/gcp.svg" alt="Google Cloud logo"><span>Google Cloud</span></div>
-  <div class="tech"><img src="/assets/images/tech/kubernetes.svg" alt="Kubernetes logo"><span>Kubernetes</span></div>
-</div>
-
-<div class="tech-stack tech-stack--tools">
-  <div class="tech"><img src="/assets/images/tech/terraform.svg" alt="Terraform logo"><span>Terraform</span></div>
-  <div class="tech"><img src="/assets/images/tech/docker.svg" alt="Docker logo"><span>Docker</span></div>
-  <div class="tech"><img src="/assets/images/tech/gitlab.svg" alt="GitLab logo"><span>GitLab</span></div>
-  <div class="tech"><img src="/assets/images/tech/istio.svg" alt="Istio logo"><span>Istio</span></div>
-  <div class="tech"><img src="/assets/images/tech/prometheus.svg" alt="Prometheus logo"><span>Prometheus</span></div>
-  <div class="tech"><img src="/assets/images/tech/grafana.svg" alt="Grafana logo"><span>Grafana</span></div>
-  <div class="tech"><img src="/assets/images/tech/argocd.svg" alt="Argo CD logo"><span>Argo CD</span></div>
-  <div class="tech"><img src="/assets/images/tech/flux.svg" alt="Flux logo"><span>Flux</span></div>
-</div>
 
 ## About
 

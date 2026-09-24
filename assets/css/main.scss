@@ -7,95 +7,65 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Tech logo row at the top of the home page */
-.tech-stack {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1em;
-  margin: 0 0 2em;
-
-  @include breakpoint(max-width $medium) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-.tech {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1em 0.5em 0.75em;
-  text-align: center;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  background-color: #fff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-
-  &:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-  }
-
-  img {
-    width: 64px;
-    height: 64px;
-    object-fit: contain;
-  }
-
-  span {
-    margin-top: 0.5em;
-    font-family: $header-font-family;
-    font-size: $type-size-6;
-    font-weight: bold;
-    color: $text-color;
-  }
-}
-
-/* Smaller second row for supporting tools */
-.tech-stack--tools {
-  grid-template-columns: repeat(8, 1fr);
-  gap: 0.75em;
-  margin-top: -1em;
-
-  @include breakpoint(max-width $large) {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .tech {
-    padding: 0.75em 0.25em 0.5em;
-
-    img {
-      width: 36px;
-      height: 36px;
-    }
-
-    span {
-      margin-top: 0.4em;
-      font-size: $type-size-7;
-      font-weight: normal;
-    }
-  }
-}
-
-/* Name and role are shown in the page banner, so keep the sidebar to photo and links */
+/* Name is shown as the page title, so the sidebar keeps photo, role and links */
 .author__name {
   display: none;
 }
 
-/* Intro under the page title */
-.intro__role {
-  margin: 0 0 0.25em;
-  font-family: $header-font-family;
-  font-size: $type-size-4;
-  font-weight: bold;
-  color: $primary-color;
+/* Keep the sidebar at full colour instead of the theme's faded default */
+.sidebar {
+  @include breakpoint($large) {
+    opacity: 1;
+  }
 }
 
-.intro__tagline {
-  margin: 0 0 1em;
+/* Tech stack logos below the author profile */
+.sidebar-stack__title {
+  font-size: $type-size-6;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   color: $muted-text-color;
 }
 
+.sidebar-stack__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5em;
+  margin: 0.5em 0 0;
+  padding: 0;
+  list-style: none;
+
+  @include breakpoint(max-width $large) {
+    grid-template-columns: repeat(6, 1fr);
+    max-width: 24em;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0.4em;
+    aspect-ratio: 1;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    background-color: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  img {
+    width: 100%;
+    max-width: 32px;
+    height: auto;
+  }
+}
+
+/* LinkedIn button under the page title */
 .intro__cta {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
