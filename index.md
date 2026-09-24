@@ -9,8 +9,6 @@ toc_icon: "cloud"
 toc_sticky: true
 ---
 
-[Connect on LinkedIn](https://www.linkedin.com/in/sujithvs74/){: .btn .btn--primary .intro__cta}
-
 ## About
 
 I'm a Cloud Architect in the Seattle area with 18 years in infrastructure, from datacenter operations to multi-cloud platforms. At UST I design, build and secure platforms on AWS, Azure and GCP that support 700+ applications and 500+ Kubernetes clusters.
