@@ -3,7 +3,7 @@ minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "di
 
 locale: "en-US"
 title: "Sujith Surendran"
-subtitle: "Cloud Architect"
+masthead_title: " " # name is shown in the page banner
 name: "Sujith Surendran"
 description: "Cloud Architect | Platform Engineering | Kubernetes | AWS | Azure | GCP | Cloud Security"
 url: "https://sujithvs.com"
@@ -13,7 +13,6 @@ linkedin_username: sujithvs74
 author:
   name: "Sujith Surendran"
   avatar: "/assets/images/profile.jpg"
-  bio: "Cloud Architect · Platform Engineering · Cloud Security"
   location: "Greater Seattle Area"
   links:
     - label: "LinkedIn"

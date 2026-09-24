@@ -76,3 +76,8 @@
     }
   }
 }
+
+/* Name and role are shown in the page banner, so keep the sidebar to photo and links */
+.author__name {
+  display: none;
+}
