@@ -12,6 +12,7 @@ linkedin_username: sujithvs74
 
 author:
   name: "Sujith Surendran"
+  avatar: "/assets/images/avatar.svg" # placeholder; replace with a real photo, e.g. /assets/images/profile.jpg
   bio: "Cloud Architect · Platform Engineering · Cloud Security"
   location: "Greater Seattle Area"
   links:
