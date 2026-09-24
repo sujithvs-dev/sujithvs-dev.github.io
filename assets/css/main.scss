@@ -81,3 +81,21 @@
 .author__name {
   display: none;
 }
+
+/* Intro under the page title */
+.intro__role {
+  margin: 0 0 0.25em;
+  font-family: $header-font-family;
+  font-size: $type-size-4;
+  font-weight: bold;
+  color: $primary-color;
+}
+
+.intro__tagline {
+  margin: 0 0 1em;
+  color: $muted-text-color;
+}
+
+.intro__cta {
+  margin-bottom: 2em;
+}

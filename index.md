@@ -1,18 +1,18 @@
 ---
 layout: single
 title: "Sujith Surendran"
-excerpt: "Cloud Architect · Platform Engineering · Cloud Security<br>18 years building secure, scalable platforms on AWS, Azure and GCP"
+excerpt: "Cloud Architect · Platform Engineering · Cloud Security. 18 years building secure, scalable platforms on AWS, Azure and GCP."
 author_profile: true
 toc: true
 toc_label: "On this page"
 toc_icon: "cloud"
 toc_sticky: true
-header:
-  overlay_color: "#0f2a44"
-  actions:
-    - label: "Connect on LinkedIn"
-      url: "https://www.linkedin.com/in/sujithvs74/"
 ---
+
+<p class="intro__role">Cloud Architect · Platform Engineering · Cloud Security</p>
+<p class="intro__tagline">18 years building secure, scalable platforms on AWS, Azure and GCP</p>
+
+[Connect on LinkedIn](https://www.linkedin.com/in/sujithvs74/){: .btn .btn--primary .intro__cta}
 
 <div class="tech-stack">
   <div class="tech"><img src="/assets/images/tech/aws.svg" alt="AWS logo"><span>AWS</span></div>
