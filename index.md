@@ -4,49 +4,64 @@ layout: default
 
 ## About
 
-Cloud Architect and Platform Engineering leader based in the Greater Seattle Area, currently at **UST**.
+Highly accomplished Cloud Engineer with 17 years of demonstrated expertise in crafting, implementing, and optimizing cloud-based solutions across diverse industries. Proficient in harnessing state-of-the-art technologies to drive innovation, heighten operational efficiency, and construct scalable, secure cloud infrastructures. Recognized for adeptly leading cross-functional teams, collaborating with stakeholders, and translating business needs into robust cloud architectures.
 
-My work spans the full arc of infrastructure: from HP-UX Superdome migrations and AIX consolidations, through Linux and datacenter operations, to Kubernetes, cloud platforms and cloud security. I care about SRE fundamentals: measuring SLIs and SLOs, prioritizing with error budgets, and automating away toil.
+Possesses a keen analytical mindset, excellent problem-solving abilities, and an in-depth knowledge of cloud platforms and services. Committed to remaining at the forefront of industry trends and best practices to consistently deliver exceptional results.
 
 ## Focus Areas
 
 - **Cloud:** AWS, Azure, GCP
-- **DevOps:** GitLab CI/CD, Terraform, infrastructure as code, automated deployments
-- **Containers & Orchestration:** Kubernetes, Docker
-- **Platform Engineering & SRE:** self-service infrastructure, golden templates, SLOs and error budgets
-- **Cloud Security:** CSPM, CNAPP, IAM governance, policy-as-code, DevSecOps, ethical hacking
-- **Linux / Unix:** Red Hat, HP-UX, AIX
+- **Containerization:** Kubernetes, Mesos, Docker, Kaniko, Crane
+- **Observability:** Grafana, Prometheus, Thanos
+- **GitOps:** Flux, ArgoCD, Config Connector
+- **Immutable Infrastructure**
+- **Service Mesh:** Istio
+- **API Gateway:** Gloo Edge
+- **Progressive Delivery**
+- **Cloud Security:** SIEM, SOAR, CSPM, CNAPP
+- **Container Security:** Aqua Security, Grype, Trivy
+- **DevSecOps & Compliance Management**
+- **Infrastructure as Code:** Terraform, CloudFormation
+- **Configuration Management:** Ansible, Puppet
+- **CI/CD:** GitLab, Jenkins
+- **Automation:** Shell, Golang, Python
 
 ## Experience
 
-### Solution Architect – Cloud Infrastructure Services
-**UST** · Full-time · Nov 2025 – Present · Seattle, Washington, United States
+### UST Global
+**Jun 2015 – Present**
 
-- Lead design and implementation of scalable, secure cloud platforms to support enterprise applications across AWS, Azure, and GCP.
-- Architect and deploy containerized solutions leveraging Kubernetes, enhancing developer velocity and infrastructure reliability.
-- Drive DevOps transformation through CI/CD pipeline creation, infrastructure as code, and automated deployment strategies.
-- Partner with cross-functional teams to align technical solutions with business goals and cloud adoption roadmap.
+- Built and secured a multi-cloud platform supporting 700+ applications, enforcing security baselines through centralized IAM governance, encrypted infrastructure, and policy-as-code guardrails.
+- Implemented Wiz CNAPP across AWS, Azure, and GCP, integrating it with native cloud services to provide unified visibility into cloud workload risks, misconfigurations, vulnerabilities, and toxic combinations.
+- Developed patching automation frameworks using AWS Systems Manager (SSM), Azure Update Manager, and GCP OS Config Agent to ensure timely and consistent OS patching across thousands of cloud instances.
+- Established a centralized container security framework using Wiz, native CSP tools, and custom policies to enforce image signing and runtime protections.
+- Implemented SIEM (Security Information and Event Management) capabilities in GCP to track security events across the organization, enhancing security posture.
+- Designed and developed a large-scale multi-cloud container platform utilizing Mesos and Kubernetes (K8s) across AWS, Azure, and GCP, ensuring scalability and flexibility.
+- Designed and developed a Container Security Platform supporting 500+ large-scale clusters with Aqua Security, ensuring container security.
+- Integrated Aqua container scanning into CI/CD pipelines using GitLab templates for automated security checks.
+- Collaborated within the core team to successfully implement enterprise-level GCP cloud onboarding, enabling organization-wide cloud adoption.
+- Managed compliance across cloud and container platforms, ensuring adherence to industry regulations and standards.
+- Translated diverse enterprise requirements into project backlogs, ensuring alignment with business needs.
+- Designed and developed cluster build automation for large-scale K8s clusters across AWS, Azure, and GCP, streamlining deployments.
+- Implemented the concept of immutable infrastructure using the container operating system Flatcar, improving consistency and reliability.
+- Designed and implemented GitOps workflows using Flux and GitLab pipelines to manage multi-cloud K8s clusters efficiently.
+- Integrated Service Mesh for Microservices, enhancing application communication and management.
+- Implemented Slack bot webhook in Golang to enable self-service capabilities for image scanning.
+- Implemented CIS benchmarking for Kubernetes clusters, enhancing security and compliance.
+- Integrated Service Mesh for traffic management using Istio, optimizing application performance.
+- Implemented K8s compliance management with Gatekeeper, ensuring adherence to policies.
+- Continuously learned and implemented new technologies required for project success, staying up to date with industry trends.
+- Implemented observability for K8s clusters using the Prometheus and Grafana stack, enhancing monitoring and troubleshooting capabilities.
+- Integrated SOAR (Security Orchestration, Automation, and Response) capabilities into the GCP platform with Splunk integration, improving incident response.
+- Established Azure Sentinel for centralized security event tracking across AWS, Azure, and GCP, ensuring comprehensive threat detection.
+- Collaborated with business owners to define platform enhancement roadmaps, aligning technology solutions with organizational objectives.
 
-### Architect II – Cloud Infrastructure Services
-**UST** · Apr 2021 – Nov 2025 · Seattle, Washington, United States
-
-Led platform engineering and cloud security initiatives to design, standardize, and secure enterprise-scale cloud platforms across AWS, Azure, and GCP, supporting hundreds of applications and large engineering teams.
-
-- Architected and operated secure, scalable cloud platforms, providing standardized networking, identity, compute, and Kubernetes foundations for application teams.
-- Drove platform engineering best practices, enabling self-service infrastructure, golden templates, and reusable Terraform modules to improve developer velocity and consistency.
-- Implemented shift-left security by embedding security scanning, policy enforcement, and compliance checks directly into CI/CD pipelines, reducing security gaps earlier in the SDLC.
-- Led cloud security posture management (CSPM) and CNAPP initiatives, including automated detection and auto-remediation of misconfigurations across multi-cloud environments.
-- Designed and enforced IAM governance, least-privilege access models, and identity automation using policy-as-code.
-- Secured container and Kubernetes platforms through image scanning, runtime controls, and configuration hardening.
-- Partnered closely with Cyber Security, Platform Automation, and Application teams to align platform architecture with enterprise security, compliance, and risk management standards.
-- Mentored engineers and led technical discussions, architecture reviews, and cloud security design sessions.
-
-*Key technologies:* AWS, Azure, GCP, Kubernetes, Terraform, GitLab CI/CD, CNAPP, CSPM, IAM, DevSecOps, Policy-as-Code
-
-### Earlier Roles
+## Roles
 
 | Role | Company | Dates | Location |
 |---|---|---|---|
+| Solution Architect – Cloud Infrastructure Services | UST | Nov 2025 – Present | Seattle, Washington, United States |
+| Architect II – Cloud Infrastructure Services | UST | Apr 2021 – Nov 2025 | Seattle, Washington, United States |
 | Associate Software Architect | UST | Apr 2019 – Mar 2021 | Kochi, Kerala, India |
 | Associate Infrastructure Specialist | UST | Oct 2017 – Mar 2019 | Kochi, Kerala, India |
 | Infrastructure Analyst | UST | Jun 2015 – Sep 2017 | Kochi, Kerala, India |
