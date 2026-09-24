@@ -7,8 +7,8 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Name is shown as the page title, so the sidebar keeps photo, role and links */
-.author__name {
+/* Name is shown under the sidebar photo, so hide the duplicate page title */
+#page-title {
   display: none;
 }
 
