@@ -14,11 +14,11 @@ header:
       url: "https://www.linkedin.com/in/sujithvs74/"
 ---
 
-<div class="highlights">
-  <div class="highlight"><span class="highlight__value">18</span><span class="highlight__label">years in infrastructure</span></div>
-  <div class="highlight"><span class="highlight__value">700+</span><span class="highlight__label">applications supported</span></div>
-  <div class="highlight"><span class="highlight__value">500+</span><span class="highlight__label">Kubernetes clusters secured</span></div>
-  <div class="highlight"><span class="highlight__value">3</span><span class="highlight__label">clouds: AWS, Azure, GCP</span></div>
+<div class="tech-stack">
+  <div class="tech"><img src="/assets/images/tech/aws.svg" alt="AWS logo"><span>AWS</span></div>
+  <div class="tech"><img src="/assets/images/tech/azure.svg" alt="Microsoft Azure logo"><span>Azure</span></div>
+  <div class="tech"><img src="/assets/images/tech/gcp.svg" alt="Google Cloud logo"><span>Google Cloud</span></div>
+  <div class="tech"><img src="/assets/images/tech/kubernetes.svg" alt="Kubernetes logo"><span>Kubernetes</span></div>
 </div>
 
 ## About

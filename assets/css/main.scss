@@ -7,8 +7,8 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Highlights row at the top of the home page */
-.highlights {
+/* Tech logo row at the top of the home page */
+.tech-stack {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1em;
@@ -19,28 +19,34 @@
   }
 }
 
-.highlight {
+.tech {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1em 0.5em;
+  padding: 1em 0.5em 0.75em;
   text-align: center;
   border: 1px solid $border-color;
-  border-top: 3px solid $primary-color;
   border-radius: $border-radius;
-  background-color: mix(#fff, $primary-color, 95%);
-}
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 
-.highlight__value {
-  font-family: $header-font-family;
-  font-size: $type-size-2;
-  font-weight: bold;
-  line-height: 1.1;
-  color: $primary-color;
-}
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  }
 
-.highlight__label {
-  margin-top: 0.4em;
-  font-size: $type-size-6;
-  color: $muted-text-color;
+  img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+  }
+
+  span {
+    margin-top: 0.5em;
+    font-family: $header-font-family;
+    font-size: $type-size-6;
+    font-weight: bold;
+    color: $text-color;
+  }
 }
