@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Sujith Surendran"
-excerpt: "Cloud Architect · Platform Engineering · Cloud Security<br>17 years building secure, scalable platforms on AWS, Azure and GCP"
+excerpt: "Cloud Architect · Platform Engineering · Cloud Security<br>18 years building secure, scalable platforms on AWS, Azure and GCP"
 author_profile: true
 toc: true
 toc_label: "On this page"
@@ -14,13 +14,20 @@ header:
       url: "https://www.linkedin.com/in/sujithvs74/"
 ---
 
+<div class="highlights">
+  <div class="highlight"><span class="highlight__value">18</span><span class="highlight__label">years in infrastructure</span></div>
+  <div class="highlight"><span class="highlight__value">700+</span><span class="highlight__label">applications supported</span></div>
+  <div class="highlight"><span class="highlight__value">500+</span><span class="highlight__label">Kubernetes clusters secured</span></div>
+  <div class="highlight"><span class="highlight__value">3</span><span class="highlight__label">clouds: AWS, Azure, GCP</span></div>
+</div>
+
 ## About
 
-Highly accomplished Cloud Engineer with 17 years of demonstrated expertise in crafting, implementing, and optimizing cloud-based solutions across diverse industries. Proficient in harnessing state-of-the-art technologies to drive innovation, heighten operational efficiency, and construct scalable, secure cloud infrastructures. Recognized for adeptly leading cross-functional teams, collaborating with stakeholders, and translating business needs into robust cloud architectures.
+I'm a Cloud Architect in the Seattle area with 18 years in infrastructure, from datacenter operations to multi-cloud platforms. At UST I design, build and secure platforms on AWS, Azure and GCP that support 700+ applications and 500+ Kubernetes clusters.
 
-Possesses a keen analytical mindset, excellent problem-solving abilities, and an in-depth knowledge of cloud platforms and services. Committed to remaining at the forefront of industry trends and best practices to consistently deliver exceptional results.
+My focus is platform engineering, container security and GitOps: giving engineering teams secure, self-service foundations, and working with stakeholders to turn business needs into robust cloud architectures.
 
-## Focus Areas
+## Skills
 
 - **Cloud:** AWS, Azure, GCP
 - **Containerization:** Kubernetes, Mesos, Docker, Kaniko, Crane
@@ -40,63 +47,64 @@ Possesses a keen analytical mindset, excellent problem-solving abilities, and an
 
 ## Experience
 
-### UST Global
+### UST
 **Jun 2015 – Present**
 
+#### Cloud Security
 - Built and secured a multi-cloud platform supporting 700+ applications, enforcing security baselines through centralized IAM governance, encrypted infrastructure, and policy-as-code guardrails.
 - Implemented Wiz CNAPP across AWS, Azure, and GCP, integrating it with native cloud services to provide unified visibility into cloud workload risks, misconfigurations, vulnerabilities, and toxic combinations.
-- Developed patching automation frameworks using AWS Systems Manager (SSM), Azure Update Manager, and GCP OS Config Agent to ensure timely and consistent OS patching across thousands of cloud instances.
-- Established a centralized container security framework using Wiz, native CSP tools, and custom policies to enforce image signing and runtime protections.
-- Implemented SIEM (Security Information and Event Management) capabilities in GCP to track security events across the organization, enhancing security posture.
-- Designed and developed a large-scale multi-cloud container platform utilizing Mesos and Kubernetes (K8s) across AWS, Azure, and GCP, ensuring scalability and flexibility.
-- Designed and developed a Container Security Platform supporting 500+ large-scale clusters with Aqua Security, ensuring container security.
+- Implemented SIEM capabilities in GCP to track security events across the organization.
+- Integrated SOAR capabilities into the GCP platform with Splunk, improving incident response.
+- Established Azure Sentinel for centralized security event tracking across AWS, Azure, and GCP.
+
+#### Container Platform
+- Designed and developed a large-scale multi-cloud container platform using Mesos and Kubernetes across AWS, Azure, and GCP.
+- Designed and developed cluster build automation for large-scale Kubernetes clusters across AWS, Azure, and GCP.
+- Implemented immutable infrastructure using the Flatcar container operating system, improving consistency and reliability.
+- Integrated Istio service mesh for microservices, improving service-to-service communication, traffic management, and application performance.
+
+#### Container Security & Compliance
+- Designed and developed a container security platform with Aqua Security, covering 500+ large-scale clusters.
 - Integrated Aqua container scanning into CI/CD pipelines using GitLab templates for automated security checks.
-- Collaborated within the core team to successfully implement enterprise-level GCP cloud onboarding, enabling organization-wide cloud adoption.
+- Established a centralized container security framework using Wiz, native CSP tools, and custom policies to enforce image signing and runtime protections.
+- Implemented CIS benchmarking for Kubernetes clusters and Kubernetes policy compliance with Gatekeeper.
 - Managed compliance across cloud and container platforms, ensuring adherence to industry regulations and standards.
-- Translated diverse enterprise requirements into project backlogs, ensuring alignment with business needs.
-- Designed and developed cluster build automation for large-scale K8s clusters across AWS, Azure, and GCP, streamlining deployments.
-- Implemented the concept of immutable infrastructure using the container operating system Flatcar, improving consistency and reliability.
-- Designed and implemented GitOps workflows using Flux and GitLab pipelines to manage multi-cloud K8s clusters efficiently.
-- Integrated Service Mesh for Microservices, enhancing application communication and management.
-- Implemented Slack bot webhook in Golang to enable self-service capabilities for image scanning.
-- Implemented CIS benchmarking for Kubernetes clusters, enhancing security and compliance.
-- Integrated Service Mesh for traffic management using Istio, optimizing application performance.
-- Implemented K8s compliance management with Gatekeeper, ensuring adherence to policies.
-- Continuously learned and implemented new technologies required for project success, staying up to date with industry trends.
-- Implemented observability for K8s clusters using the Prometheus and Grafana stack, enhancing monitoring and troubleshooting capabilities.
-- Integrated SOAR (Security Orchestration, Automation, and Response) capabilities into the GCP platform with Splunk integration, improving incident response.
-- Established Azure Sentinel for centralized security event tracking across AWS, Azure, and GCP, ensuring comprehensive threat detection.
-- Collaborated with business owners to define platform enhancement roadmaps, aligning technology solutions with organizational objectives.
 
-## Roles
+#### Automation & GitOps
+- Designed and implemented GitOps workflows using Flux and GitLab pipelines to manage multi-cloud Kubernetes clusters.
+- Developed patching automation using AWS Systems Manager, Azure Update Manager, and GCP OS Config Agent to keep thousands of cloud instances consistently patched.
+- Built a Slack bot webhook in Golang to provide self-service image scanning.
 
-| Role | Company | Dates | Location |
-|---|---|---|---|
-| Solution Architect – Cloud Infrastructure Services | UST | Nov 2025 – Present | Seattle, Washington, United States |
-| Architect II – Cloud Infrastructure Services | UST | Apr 2021 – Nov 2025 | Seattle, Washington, United States |
-| Associate Software Architect | UST | Apr 2019 – Mar 2021 | Kochi, Kerala, India |
-| Associate Infrastructure Specialist | UST | Oct 2017 – Mar 2019 | Kochi, Kerala, India |
-| Infrastructure Analyst | UST | Jun 2015 – Sep 2017 | Kochi, Kerala, India |
-| DevOps Engineer | Lenovo | Dec 2014 – Jun 2015 | Bangalore, India |
-| DevOps Engineer | Urolime Technologies | Sep 2013 – Dec 2014 | Kochi, Kerala, India |
-| Senior Technical Support Engineer | SBL | Oct 2012 – Sep 2013 | Kochi, Kerala, India |
-| Technical Support Engineer | SBL | Sep 2008 – Oct 2012 | Kochi, Kerala, India |
+#### Observability
+- Implemented observability for Kubernetes clusters using Prometheus and Grafana, improving monitoring and troubleshooting.
+
+#### Leadership & Cloud Adoption
+- Core team member for enterprise-wide GCP cloud onboarding, enabling organization-wide cloud adoption.
+- Collaborated with business owners to define platform roadmaps aligned with organizational objectives.
+
+## Career Timeline
+
+| Role | Company | Dates |
+|---|---|---|
+| Solution Architect – Cloud Infrastructure Services | UST | Nov 2025 – Present |
+| Architect II – Cloud Infrastructure Services | UST | Apr 2021 – Nov 2025 |
+| Associate Software Architect | UST | Apr 2019 – Mar 2021 |
+| Associate Infrastructure Specialist | UST | Oct 2017 – Mar 2019 |
+| Infrastructure Analyst | UST | Jun 2015 – Sep 2017 |
+| DevOps Engineer | Lenovo | Dec 2014 – Jun 2015 |
+| DevOps Engineer | Urolime Technologies | Sep 2013 – Dec 2014 |
+| Senior Technical Support Engineer | SBL | Oct 2012 – Sep 2013 |
+| Technical Support Engineer | SBL | Sep 2008 – Oct 2012 |
 
 ## Certifications
 
-| Certification | Issuer |
-|---|---|
-| CKAD: Certified Kubernetes Application Developer | The Linux Foundation |
-| CKA: Certified Kubernetes Administrator | The Linux Foundation |
-| AWS Certified Solutions Architect – Professional | Amazon Web Services |
-| AWS Certified Solutions Architect – Associate | Amazon Web Services |
-| AWS Security Fundamentals | Amazon Web Services |
-| AWS Technical Professional | Amazon Web Services |
-| AWS Business Professional | Amazon Web Services |
-| CEH: Certified Ethical Hacker | EC-Council |
-| RHCSA: Red Hat Certified System Administrator | Red Hat |
-| RHCE: Red Hat Certified Engineer | Red Hat |
-
-## Languages
-
-English · Malayalam · Hindi
+- CKAD: Certified Kubernetes Application Developer
+- CKA: Certified Kubernetes Administrator
+- AWS Certified Solutions Architect – Professional
+- AWS Certified Solutions Architect – Associate
+- AWS Security Fundamentals
+- AWS Technical Professional
+- AWS Business Professional
+- CEH: Certified Ethical Hacker
+- RHCSA: Red Hat Certified System Administrator
+- RHCE: Red Hat Certified Engineer

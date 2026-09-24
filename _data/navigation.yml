@@ -2,10 +2,10 @@ main:
   - title: "About"
     url: /#about
   - title: "Skills"
-    url: /#focus-areas
+    url: /#skills
   - title: "Experience"
     url: /#experience
-  - title: "Roles"
-    url: /#roles
+  - title: "Career Timeline"
+    url: /#career-timeline
   - title: "Certifications"
     url: /#certifications
