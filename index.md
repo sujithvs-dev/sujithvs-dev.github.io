@@ -21,6 +21,17 @@ header:
   <div class="tech"><img src="/assets/images/tech/kubernetes.svg" alt="Kubernetes logo"><span>Kubernetes</span></div>
 </div>
 
+<div class="tech-stack tech-stack--tools">
+  <div class="tech"><img src="/assets/images/tech/terraform.svg" alt="Terraform logo"><span>Terraform</span></div>
+  <div class="tech"><img src="/assets/images/tech/docker.svg" alt="Docker logo"><span>Docker</span></div>
+  <div class="tech"><img src="/assets/images/tech/gitlab.svg" alt="GitLab logo"><span>GitLab</span></div>
+  <div class="tech"><img src="/assets/images/tech/istio.svg" alt="Istio logo"><span>Istio</span></div>
+  <div class="tech"><img src="/assets/images/tech/prometheus.svg" alt="Prometheus logo"><span>Prometheus</span></div>
+  <div class="tech"><img src="/assets/images/tech/grafana.svg" alt="Grafana logo"><span>Grafana</span></div>
+  <div class="tech"><img src="/assets/images/tech/argocd.svg" alt="Argo CD logo"><span>Argo CD</span></div>
+  <div class="tech"><img src="/assets/images/tech/flux.svg" alt="Flux logo"><span>Flux</span></div>
+</div>
+
 ## About
 
 I'm a Cloud Architect in the Seattle area with 18 years in infrastructure, from datacenter operations to multi-cloud platforms. At UST I design, build and secure platforms on AWS, Azure and GCP that support 700+ applications and 500+ Kubernetes clusters.
