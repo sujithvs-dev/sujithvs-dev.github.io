@@ -1,6 +1,47 @@
-title: Sujith Surendran
-description: Cloud Architect | Platform Engineering | Kubernetes | AWS | GCP | SRE
-show_downloads: false
-google_analytics:
-theme: jekyll-theme-architect
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
+minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+locale: "en-US"
+title: "Sujith Surendran"
+subtitle: "Cloud Architect"
+name: "Sujith Surendran"
+description: "Cloud Architect | Platform Engineering | Kubernetes | AWS | Azure | GCP | Cloud Security"
+url: "https://sujithvs.com"
+repository: "sujithvs-dev/sujithvs-dev.github.io"
 linkedin_username: sujithvs74
+
+author:
+  name: "Sujith Surendran"
+  bio: "Cloud Architect · Platform Engineering · Cloud Security"
+  location: "Greater Seattle Area"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sujithvs74/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sujithvs-dev"
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sujithvs74/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sujithvs-dev"
+
+atom_feed:
+  hide: true
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
